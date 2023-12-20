@@ -1,0 +1,4 @@
+Bundle-Name: custom-search-filter-config
+Bundle-SymbolicName: com.liferay.samples.custom.search.filter.configuration
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.samples.custom.search.filter.config

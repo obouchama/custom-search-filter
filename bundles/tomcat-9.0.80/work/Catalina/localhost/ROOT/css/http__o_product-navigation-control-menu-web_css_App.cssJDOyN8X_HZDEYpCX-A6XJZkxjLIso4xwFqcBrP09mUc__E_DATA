@@ -1,0 +1,324 @@
+/**
+ * Clay 3.90.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+/**
+ * Clay 3.90.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.sidebar-body__add-panel {
+  height: 100%;
+  overflow: auto;
+  padding: 16px;
+}
+.sidebar-body__add-panel .form-control-sm {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/**
+ * Clay 3.90.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.sidebar__collapse {
+  cursor: pointer;
+}
+.sidebar__collapse .collapse-icon {
+  background: none;
+  border: 0;
+  color: #6b6c7e;
+  font-size: 0.7rem;
+  height: 2rem;
+  margin-bottom: 4px;
+  padding-left: 0;
+  text-align: left;
+  width: 100%;
+}
+.rtl .sidebar__collapse .collapse-icon-closed {
+  transform: rotate(-180deg);
+}
+.sidebar__collapse .ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sidebar__collapse .sheet-subtitle {
+  line-height: inherit;
+}
+.sidebar__collapse .sidebar__collapse {
+  margin-left: 1rem;
+}
+
+/**
+ * Clay 3.90.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.sidebar-body__add-panel__content-options {
+  display: flex;
+}
+.sidebar-body__add-panel__content-options-add {
+  margin-left: 16px;
+}
+.sidebar-body__add-panel__content-options-list {
+  margin-left: auto;
+}
+.sidebar-body__add-panel__content-options-select {
+  background-color: white;
+  border: 0;
+  color: #6b6c7e;
+  font-weight: 600;
+  width: 140px;
+}
+.sidebar-body__add-panel__content-options-add .lexicon-icon, .sidebar-body__add-panel__content-options-list .lexicon-icon {
+  fill: #6b6c7e;
+}
+
+/**
+ * Clay 3.90.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.sidebar__drag-preview {
+  cursor: grabbing;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 991;
+}
+.sidebar__drag-preview__content {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(39, 40, 51, 0.16);
+  color: #30313f;
+  cursor: grabbing;
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  height: 2rem;
+  padding: 8px;
+  position: absolute;
+  text-align: left;
+  text-overflow: ellipsis;
+  width: 246px;
+  word-wrap: break-word;
+}
+.sidebar__drag-preview__content .lexicon-icon {
+  font-size: 0.875rem;
+}
+
+/**
+ * Clay 3.90.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.sidebar-body__add-panel__tab-item {
+  align-items: center;
+  border-radius: 4px;
+  color: #30313f;
+  cursor: grab;
+  display: flex;
+  height: 2rem;
+  margin-bottom: 4px;
+  padding: 0 4px 0 12px;
+}
+.grid .sidebar-body__add-panel__tab-item {
+  border: 1px solid #e7e7ed;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+  padding: 0;
+  width: calc(50% - 4px);
+}
+.grid .sidebar-body__add-panel__tab-item-body {
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+}
+.grid .sidebar-body__add-panel__tab-item-body .icon {
+  border-bottom: 1px solid #e7e7ed;
+  font-size: 40px;
+  padding: 4px 0 18px;
+  text-align: center;
+  width: 100%;
+}
+.grid .sidebar-body__add-panel__tab-item-body .icon .lexicon-icon {
+  fill: #a7a9bc;
+  margin-right: 0;
+}
+.grid .sidebar-body__add-panel__tab-item-body .text {
+  padding: 4px 8px 0;
+  width: 100%;
+}
+.grid .sidebar-body__add-panel__tab-item.multiline {
+  height: 8.5rem;
+}
+.grid .sidebar-body__add-panel__tab-item.multiline .sidebar-body__add-panel__tab-item-add {
+  right: 0;
+}
+.sidebar-body__add-panel__tab-item.sidebar-body__add-panel__tab-portlet-item {
+  margin-left: 16px;
+}
+.sidebar-body__add-panel__tab-item.multiline {
+  height: 3.125rem;
+  position: relative;
+}
+.sidebar-body__add-panel__tab-item.multiline .sidebar-body__add-panel__tab-item-add {
+  position: absolute;
+  right: 4px;
+  top: 0;
+}
+.sidebar-body__add-panel__tab-item-add {
+  font-size: 0.875rem;
+  opacity: 0;
+}
+.sidebar-body__add-panel__tab-item-add:focus {
+  opacity: 1;
+}
+.sidebar-body__add-panel__tab-item-add .lexicon-icon {
+  fill: #a7a9bc;
+}
+.sidebar-body__add-panel__tab-item:focus, .sidebar-body__add-panel__tab-item:hover {
+  background-color: #f7f8f9;
+}
+.sidebar-body__add-panel__tab-item:focus .sidebar-body__add-panel__tab-item-add, .sidebar-body__add-panel__tab-item:hover .sidebar-body__add-panel__tab-item-add {
+  opacity: 1;
+}
+.sidebar-body__add-panel__tab-item.disabled {
+  color: #a7a9bc;
+  cursor: default;
+}
+.sidebar-body__add-panel__tab-item.disabled:hover {
+  background-color: transparent;
+}
+.sidebar-body__add-panel__tab-item-body {
+  align-items: center;
+  display: flex;
+  font-size: 0.875rem;
+  text-align: center;
+  width: calc(100% - 1.5rem);
+}
+.sidebar-body__add-panel__tab-item-body .icon {
+  align-self: flex-start;
+  width: 30px;
+}
+.sidebar-body__add-panel__tab-item-body .lexicon-icon {
+  margin-right: 16px;
+  transform: translateY(1px);
+}
+.sidebar-body__add-panel__tab-item-body .text {
+  flex: 0 1 100%;
+  overflow: hidden;
+  text-align: left;
+}
+.sidebar-body__add-panel__tab-item-body .title {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.sidebar-body__add-panel__tab-item-body .subtitle {
+  color: #6b6c7e;
+  flex-basis: 100%;
+  font-size: 0.75rem;
+}
+
+/**
+ * Clay 3.90.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.sidebar-body__add-panel__tab-content ul.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sidebar-body__add-panel__tabs {
+  border-bottom: 1px solid #e7e7ed;
+  color: #272833;
+  font-size: 0.75rem;
+  margin-bottom: 16px;
+}
+.sidebar-body__add-panel__tabs .nav-item .nav-link.active {
+  color: #6b6c7e;
+}

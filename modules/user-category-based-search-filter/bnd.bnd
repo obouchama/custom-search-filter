@@ -1,0 +1,5 @@
+Bundle-Name: user-category-based-search-filter
+Bundle-SymbolicName: com.liferay.samples.category.based.search.filter
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.samples.category.based.search.filter.api
+-metatype: *

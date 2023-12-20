@@ -1,0 +1,32 @@
+<%--
+/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+--%>
+
+<c:if test="<%= (portlets != null) && !portlets.isEmpty() %>">
+
+	<%
+	PortletResourceAccessor[] portletResourceAccessors = {PortletResourceAccessor.HEADER_PORTAL_JAVASCRIPT, PortletResourceAccessor.HEADER_PORTLET_JAVASCRIPT};
+
+	final ThemeDisplay finalThemeDisplay = themeDisplay;
+
+	Predicate<String> predicate = resource -> !finalThemeDisplay.isIncludedJs(resource);
+
+	boolean useComboServletStaticURLGenerator = themeDisplay.isThemeJsFastLoad();
+	%>
+
+	<%@ include file="/html/common/themes/portlet_resources.jspf" %>
+
+	<%
+	for (String url : urls) {
+	%>
+
+		<script data-senna-track="temporary" src="<%= HtmlUtil.escapeAttribute(url) %>" type="text/javascript"></script>
+
+	<%
+	}
+	%>
+
+</c:if>

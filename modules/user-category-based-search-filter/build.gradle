@@ -1,0 +1,7 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+
+	compileOnly project(":modules:custom-search-filter-config")
+
+	compileOnly group: "com.liferay", name: "com.liferay.portal.osgi.web.wab.generator.impl"
+}

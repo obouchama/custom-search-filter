@@ -1,0 +1,119 @@
+/**
+ * Clay 3.90.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.dpt-mapping .dpt-mapping-label {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.dpt-mapping .control-label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.dpt-mapping .dpt-mapping-input {
+  pointer-events: none;
+}
+.dpt-mapping .dpt-mapping-panel-wrapper {
+  position: relative;
+}
+.dpt-mapping .dpt-mapping-btn:not([disabled]):not(.disabled).active {
+  color: #af78ff;
+}
+.dpt-mapping .dpt-mapping-btn:not([disabled]):not(.disabled).active:focus, .dpt-mapping .dpt-mapping-btn:not([disabled]):not(.disabled).active:hover {
+  background-color: rgba(175, 120, 255, 0.1);
+}
+.dpt-mapping .dpt-mapping-panel {
+  max-height: 250px;
+  min-width: 288px;
+  position: absolute;
+  top: 3rem;
+  transform: translateX(-100%) translateX(40px);
+  transition: opacity ease 0.3s;
+}
+.dpt-mapping .popover-scrollable {
+  overflow: auto;
+}
+.dpt-mapping .dpt-mapping-placeholder .form-text {
+  margin-bottom: 1.5rem;
+  margin-top: -1.25rem;
+}
+
+.preview-seo {
+  background-color: #fff;
+  border: 1px solid #e7e7ed;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  padding: 1rem;
+}
+.preview-seo-description, .preview-seo-title, .preview-seo-url {
+  min-height: 1.5em;
+}
+.preview-seo-description {
+  word-break: break-all;
+}
+.preview-seo-title {
+  font-size: 1rem;
+}
+.preview-seo-serp {
+  box-sizing: content-box;
+  font-family: arial, sans-serif;
+  max-width: 600px;
+}
+.preview-seo-serp .preview-seo-description {
+  color: #545454;
+}
+.preview-seo-serp .preview-seo-title {
+  color: #1a0dab;
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+.preview-seo-serp .preview-seo-url {
+  color: #006621;
+  font-size: 1rem;
+}
+.preview-seo-og {
+  color: #6b6c7e;
+  max-width: 535px;
+}
+.preview-seo-og .preview-seo-image {
+  margin-bottom: 0.75rem;
+}
+.preview-seo-og .preview-seo-placeholder-icon {
+  font-size: 2rem;
+}
+.preview-seo-og .preview-seo-placeholder-text {
+  bottom: 1rem;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.preview-seo-og .preview-seo-title {
+  color: #272833;
+  font-weight: 600;
+}
+.preview-seo-og .preview-seo-url {
+  color: #6b6c7e;
+  text-transform: uppercase;
+}
+
+.aspect-ratio-191-to-100 {
+  padding-bottom: calc(1 / 1.91 * 100%);
+}
+
+.open-graph-settings.disabled {
+  opacity: 0.4;
+}
